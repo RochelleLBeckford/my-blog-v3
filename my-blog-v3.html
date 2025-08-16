@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <!-- & Title of the webpage -->
+        <title>My Blog V3</title>
+        <!-- & Link to CSS Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="style.css"
+        />
+    </head>
+    <body>
+        <!-- & Header
+        ~ space near the top of the webpage where that wilol have information like the website logo, title of a webpage, a search bar, links to other parts of the site, and a button to sign into the webpage
+    -->
+        <header>
+            <h1>Welcome to My Blog!</h1>
+            <nav>
+                <!-- & Nav Bar
+                ~ links that will navigate to the other parts of the webpage. Usually ordered lists and/or unordered lists
+            -->
+                <ul class="flex-list">
+                    <li>
+                        <a href="#about-section">About</a>
+                    </li>
+                    <li>
+                        <a href="#stories-section">Stories</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- & Main
+        ~ This is where the main information of the webpage will go
+    -->
+        <main>
+            <h1>Just a little bit about me.</h1>
+
+            <!-- & Section
+            ~ The <section> element groups together pieces of similar information
+            ~ unlike the <main> element, there can be many <section> elements on a webpage
+            ~ a <header> element is used to explain what each section is about
+        -->
+            <section>
+                <h2 id="about-section">About</h2>
+                <article>
+                    <h3>Who am I?</h3>
+                    <p>
+                        I am a big fan of Anime and enjoy reading Manga. I enjoy
+                        cooking, I love West Indian and Asian cusine, but I will
+                        certainly welcome a bowl of Ramen anyday.I am currently
+                        in Grad School to continue to grow in my new career
+                        path. As well as, Matcha is life.
+                    </p>
+                </article>
+            </section>
+
+            <section>
+                <h2 id="stories-section">Stories</h2>
+                <article>
+                    <h3>Anime | Manga</h3>
+                    <p>
+                        I have been a huge fan of various Anime and Manga from
+                        my early teens. They literllay touch the soul and bring
+                        people from all walks of life together sharing so many
+                        differnet emotions but still resonating and appreciating
+                        the stories they tell.It can provide insight to a
+                        different culture, can be comforting, inspiraitonal, a
+                        visual storytelling, help bloom the imagination, and
+                        even emotional support. A feel good anime | manga can
+                        bring a smile to your face and make you laugh from the
+                        depths of your soul.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Cooking | Favorite Food</h3>
+                    <p>
+                        I enjoy cooking a variety of West Indian dishes as that
+                        is my culture and especially seafood. I deeply enjoy
+                        various Asian cuisines as well. However, I love sushi
+                        with every fiber of my being and will eat it any time of
+                        the day. In addition, a good Ramen cures the soul after
+                        a hard day.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Grad School | Matcha</h3>
+                    <p>
+                        I am currently in Grad school focusing on growing on
+                        growing in my new career path and Matcha is essential
+                        and helps me code through the day and do my absolute
+                        best in my classes. I know all my hardwork will pay off
+                        and I feel so happy when I see my code come to life.
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <!-- & Footer
+        ~ This is where important information will go that it is not suitable for the <header> element
+        ~ links to external sources
+            ~ in the <a> element -> use this for the href attribute - href="/privacy"
+                ~ this will open the link to the information
+            ~ use the target attribute as well to open the link in a new tab
+                ~ target="_blank"
+        -->
+        <footer class="flex-container">
+            <!-- & &copy; - is the symbol for copyright -->
+            <p>&copy; 2025 EtariaL33. All rights reserved.</p>
+            <ul class="flex-list">
+                <li>
+                    <a
+                        href="/terms"
+                        target="_blank"
+                        >Terms</a
+                    >
+                </li>
+
+                <li>
+                    <a
+                        href="/legal"
+                        target="_blank"
+                        >Legal</a
+                    >
+                </li>
+
+                <li>
+                    <a
+                        href="/archive"
+                        target="_blank"
+                        >Archive</a
+                    >
+                </li>
+
+                <li>
+                    <a
+                        href="/privacy"
+                        target="_blank"
+                        >Privacy</a
+                    >
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
