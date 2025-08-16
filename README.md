@@ -5,7 +5,6 @@
 -   [ ] Simple practice to gain a better understanding of the purpose of the &lt;section&gt; elelment and the &lt;article&gt; element, along with what each entails
     -   [ ] Most sites have a section where the main content of the page will reside within the &lt;main&gt; element
     -   [ ] The &lt;main&gt; element tends to have sections of similar information grouped together. The &lt;section&gt; element is used to accomplish this.
--
 
 -   [ ] The &lt;header&gt; element:
     -   [ ] Always goes in the &lt;body&gt; element
@@ -32,7 +31,7 @@
 -   [ ] The &lt;article&gt; element:
     -   [ ] This will be within the &lt;section&gt; element and house a singular piece of content describing what the section is about in detail
     -   [ ] It is common to have a header to emphasis what each &lt;article&gt; element will be about.
-    -   [ ] Then a &lt;p&gt; element that will discuss in detail what the &lt;article&gt; is about in great detail 
+    -   [ ] Then a &lt;p&gt; element that will discuss in detail what the &lt;article&gt; is about in great detail
 
 -   [ ] The &lt;footer&gt; element:
     -   [ ] this element tends to finish off the webpage as it is located at the very bottom of the webpage and last items that will be seen
