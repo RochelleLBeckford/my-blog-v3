@@ -54,4 +54,4 @@
 ---
 
 - [ ] Link to visit the webpage:
-  - [ ] <a href="https://rlb-my-vlog-v3.netlify.app/" target="_blank">rlb-my-blog-v3</a>
+  - [ ] <a href="https://rlb-my-blog-v3.netlify.app/" target="_blank">rlb-my-blog-v3</a>
